@@ -11,21 +11,26 @@ body {
   height: 100vh;
 }
 
+h1.el {
+  color: #fff;
 
+  font-size: 3rem;
+}
 
 .container {
-  position: fixed;
+  /* position: fixed;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 50%; */
+  /* transform: translate(-50%, -50%); */
   display: inline-block;
   width: 35%;
-  max-width: 600px;
+  max-width: 300px;
   overflow: hidden;
   border: 2px solid #fff;
   padding: 0px 20px 20px;
   border-radius: 5px;
   margin: 10px;
+  text-align: center;
 }
 
 .container h1#main-heading {
@@ -45,9 +50,22 @@ body {
   align-items: center;
   font-size: 18px;
   color: #444;
+   
 }
 
 .container ul li.list-items:last-child {
   border-bottom: none;
+}
+
+
+
+button {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+ 
 }
 /*# sourceMappingURL=main.css.map */
