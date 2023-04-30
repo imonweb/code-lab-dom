@@ -16,21 +16,24 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  display: inline-block;
   width: 35%;
   max-width: 600px;
   overflow: hidden;
   border: 2px solid #fff;
   padding: 0px 20px 20px;
   border-radius: 5px;
+  margin: 10px;
 }
 
 .container h1#main-heading {
   color: #eee;
   font-weight: 400;
   padding: 40px;
+  text-align: center;
 }
 
-.container ul li {
+.container ul li.list-items {
   list-style: none;
   padding: 5px;
   background-color: #fff;
@@ -42,7 +45,7 @@ body {
   color: #444;
 }
 
-.container ul li:last-child {
+.container ul li.list-items:last-child {
   border-bottom: none;
 }
 /*# sourceMappingURL=main.css.map */
